@@ -1,5 +1,6 @@
 'use strict';
 var h = require('../helpers');
+var passport = require('passport');
 
 module.exports = () => {
 	let routes = {

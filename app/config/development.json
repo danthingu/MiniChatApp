@@ -1,6 +1,6 @@
 {
 	"host": "http://localhost:3000",
-	"dbURI": "mongodb://@ds157057.mlab.com:57057/minichat",
+	"dbURI": ,
 	"sessionSecret": "catscanfly",
 	"fb": {
 		"clientID": "",
