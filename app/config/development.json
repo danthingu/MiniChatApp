@@ -1,10 +1,10 @@
 {
 	"host": "http://localhost:3000",
-	"dbURI": "mongodb://thienng93:New-Job2016@ds157057.mlab.com:57057/minichat",
+	"dbURI": "mongodb://@ds157057.mlab.com:57057/minichat",
 	"sessionSecret": "catscanfly",
 	"fb": {
-		"clientID": "",
-		"clientSecret": "",
+		"clientID": "142443036444459",
+		"clientSecret": "d2ae1ac0b81a0bb83bb1a85511d99836",
 		"callbackURL": "//localhost:3000/auth/facebook/callback",
 		"profileFields": ["id", "displayName", "photos"]
 	}
