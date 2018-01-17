@@ -1,0 +1,6 @@
+{
+	"host": "http://localhost:3000",
+	"dbURI": "mongodb://thienng93:New-Job2016@ds157057.mlab.com:57057/minichat",
+	"sessionSecret": "catscanfly",
+	
+}

@@ -12,7 +12,19 @@ module.exports = () => {
 			},
 			'/chat': function(req, res) {
 				res.render('chatroom');
-			}
+			},
+			'/getsession': function(req, res) {
+				res.send("My favorite color: " + req.session.favColor);
+			},
+			'/setsession': function(req, res) {
+				req.session.favColor = "Gray";
+				res.send("Session Set");
+			},
+			'/auth/facebook': passport.authenticate('facebook'),
+			'/auth/facebook/callback': passport.authenticate('facebook', {
+				successRedirect: '/rooms',
+				failureRedirect:'/'
+			})
 		},
 		'post': {
 
